@@ -1,0 +1,36 @@
+
+:root {
+  --text-color: #000000;
+  --white-text-color:#FFFFFF;
+  --accent: #f36dd6;
+  --accent-active: #d11ba0;
+  --accent-bright: #efefef;
+  --grey-bg: #242424;
+
+  --font-main: "Rubik", sans-serif;
+}
+
+// @mixin desktop-small() {
+//   @media (max-width: 1400px) {
+//     @content;
+//   }
+// }
+
+// @mixin tablet() {
+//   @media (max-width: 992px) {
+//     @content;
+//   }
+// }
+
+// @mixin mobile-xl() {
+//   @media (max-width: 819px) {
+//     @content;
+//   }
+// }
+
+// @mixin mobile() {
+//   @media (max-width: 629px) {
+//     @content;
+//   }
+// }
+
