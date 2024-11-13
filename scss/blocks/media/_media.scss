@@ -277,8 +277,11 @@
       }
     }
   }
-  .motivation-descr p {
-    font-size: 14px;
+  .motivation-descr {
+    left: 20px;
+    p {
+      font-size: 14px;
+    }
   }
   .exp {
     h3 {
@@ -347,7 +350,7 @@
   .trainer-description-list {
     font-size: 14px;
   }
-  .question h3, .answer p{
+  .question h3, .answer p, .answer ul{
     font-size: 13px;
   }
 }
@@ -400,7 +403,7 @@
       line-height: 26px;
     }
     .club-wrapper {
-      padding-right: 10px;
+      padding-right: 20px;
       padding-top: 80px;
     }
   }
