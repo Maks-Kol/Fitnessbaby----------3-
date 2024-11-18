@@ -9,11 +9,13 @@
   font-size: 14px;
   color: #141414;
   opacity: .7;
-  a {
-    color: var(--accent);
-  }
+}
+
+.offer a {
+  color: var(--accent);
 }
 
 .inst {
-  border-bottom: 0.7px solid var(--accent);
+  color: var(--accent-active);
+  border-bottom: 0.7px solid var(--accent-active);
 }
