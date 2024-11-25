@@ -98,7 +98,7 @@ legend {
   --accent-active: #2d2f33;
   --accent-bright: #efefef;
   --grey-bg: #242424;
-  --font-main: "Lato", sans-serif;
+  --font-main: "Montserrat", sans-serif;
 }
 
 html, body {
@@ -312,7 +312,6 @@ body.no-scroll {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 900px;
 }
 .header__nav .nav ul {
   width: 100%;
