@@ -2,7 +2,7 @@
 /* Reset and base styles  */
 @import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 * {
   padding: 0px;
   margin: 0px;
@@ -94,7 +94,7 @@ legend {
 :root {
   --text-color: #000000;
   --white-text-color:#FFFFFF;
-  --accent: #57707a;
+  --accent: #697377;
   --accent-active: #191d23;
   --accent-bright: #efefef;
   --grey-bg: #242424;
