@@ -152,8 +152,8 @@ body.no-scroll {
 }
 .content {
   opacity: 0; /* Скрыть контент по умолчанию */
-  -webkit-transition: opacity 3.5s;
-  transition: opacity 3.5s; /* Плавный переход для появления */
+  -webkit-transition: opacity 4.5s;
+  transition: opacity 4.5s; /* Плавный переход для появления */
 }
 
 .content.visible {
