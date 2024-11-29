@@ -3,6 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poiret+One&display=swap");
 * {
   padding: 0px;
   margin: 0px;
@@ -98,7 +99,7 @@ legend {
   --accent-active: #2d2f33;
   --accent-bright: #efefef;
   --grey-bg: #242424;
-  --font-main: "Montserrat", sans-serif;
+  --font-main: "Poiret+One", sans-serif;
 }
 
 html, body {
@@ -778,10 +779,11 @@ body.no-scroll {
 
 .exp {
   background-color: var(--header-text-color);
-  background-image: -webkit-gradient(linear, left top, right top, from(rgb(255, 255, 255)), to(rgba(255, 255, 255, 0.9))), url("./../img/background/exp-bg.jpg");
-  background-image: linear-gradient(to right, rgb(255, 255, 255), rgba(255, 255, 255, 0.9)), url("./../img/background/exp-bg.jpg");
+  background-image: -webkit-gradient(linear, left top, right top, from(rgb(255, 255, 255)), to(rgba(255, 255, 255, 0.6))), url("./../img/background/exp-bg.jpg");
+  background-image: linear-gradient(to right, rgb(255, 255, 255), rgba(255, 255, 255, 0.6)), url("./../img/background/exp-bg.jpg");
   background-size: cover;
-  background-position: center;
+  background-repeat: no-repeat;
+  background-position: 33% top;
   padding-bottom: 90px;
   padding-left: 120px;
   padding-right: 15px;
@@ -967,8 +969,8 @@ body.no-scroll {
   padding-top: 120px;
   padding-bottom: 120px;
   background-color: var(--header-text-color);
-  background-image: -webkit-gradient(linear, right top, left top, from(rgb(255, 255, 255)), to(rgba(255, 255, 255, 0.85))), url("./../img/background/match-bg.jpg");
-  background-image: linear-gradient(to left, rgb(255, 255, 255), rgba(255, 255, 255, 0.85)), url("./../img/background/match-bg.jpg");
+  background-image: -webkit-gradient(linear, right top, left top, from(rgb(255, 255, 255)), to(rgba(255, 255, 255, 0.6))), url("./../img/background/match-bg.jpg");
+  background-image: linear-gradient(to left, rgb(255, 255, 255), rgba(255, 255, 255, 0.6)), url("./../img/background/match-bg.jpg");
   background-size: cover;
   background-position: center;
   border-top: 1px solid #000000;

@@ -1,8 +1,9 @@
 .exp {
   background-color: var(--header-text-color);
-  background-image: linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.9)), url('./../img/background/exp-bg.jpg');
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.6)), url('./../img/background/exp-bg.jpg');
   background-size: cover;
-  background-position: center;
+  background-repeat: no-repeat;
+  background-position: 33% top;
   padding-bottom: 90px;
   padding-left: 120px;
   padding-right: 15px;
