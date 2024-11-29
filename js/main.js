@@ -65,3 +65,11 @@ faqs.forEach((faq) => {
     faq.classList.toggle("active");
   });
 });
+
+if (/iPhone|iPad|iPod/i.test(navigator.userAgent)) {
+  var bg = document.querySelector(".test");
+  window.addEventListener("scroll", function () {
+    var scrollPosition = window.pageYOffset;
+    bg.style.backgroundPosition = "center " + scrollPosition * 0.5 + "px"; // Эффект параллакса
+  });
+}

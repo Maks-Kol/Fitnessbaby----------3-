@@ -438,18 +438,18 @@
   }
 }
 
-@media (max-height: 800px) {
+@media (max-height: 1000px) {
   .header {
     .header__title {
-      padding-top: 26vh;
+      padding-top: 36vh;
     }
   }
 }
 
-@media (max-height: 610px) {
+@media (max-height: 810px) {
   .header {
     .header__title {
-      padding-top: 19vh;
+      padding-top: 38vh;
     }
   }
 }

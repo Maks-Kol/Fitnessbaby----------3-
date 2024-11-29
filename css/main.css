@@ -856,12 +856,7 @@ body.no-scroll {
 }
 
 .test {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(80, 80, 80, 0.4))), url("./../img/background/test-bg.jpg");
-  background-image: linear-gradient(rgba(80, 80, 80, 0.4)), url("./../img/background/test-bg.jpg");
-  background-attachment: fixed; /* Фиксирует фоновую картинку для параллакса */
-  background-size: cover;
-  background-position: 36% top;
-  background-repeat: no-repeat;
+  position: relative;
   height: 330px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -869,6 +864,26 @@ body.no-scroll {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(80, 80, 80, 0.4))), url("./../img/background/test-bg.jpg");
+  background-image: linear-gradient(to bottom, rgba(80, 80, 80, 0.4)), url("./../img/background/test-bg.jpg");
+  background-attachment: fixed; /* Работает на десктопах */
+  background-size: cover;
+  background-position: 36% top;
+  background-repeat: no-repeat;
+  height: 330px;
+  display: flex;
+  align-items: center;
+}
+
+.test::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("./../img/background/test-bg.jpg") no-repeat center/cover;
+  z-index: -1;
 }
 
 .test-wrapper {
@@ -972,10 +987,8 @@ body.no-scroll {
   padding-top: 120px;
   padding-bottom: 120px;
   background-color: var(--header-text-color);
-  background-image: -webkit-gradient(linear, right top, left top, from(rgb(255, 255, 255)), to(rgba(255, 255, 255, 0.6))), url("./../img/background/match-bg.jpg");
-  background-image: linear-gradient(to left, rgb(255, 255, 255), rgba(255, 255, 255, 0.6)), url("./../img/background/match-bg.jpg");
-  background-size: cover;
-  background-position: center;
+  background: -webkit-gradient(linear, right top, left top, from(rgb(255, 255, 255)), color-stop(50%, rgba(255, 255, 255, 0.4))), -webkit-gradient(linear, left bottom, left top, from(rgb(255, 255, 255)), color-stop(80%, rgba(255, 255, 255, 0.4))), url("./../img/background/match-bg.jpg") no-repeat center -110px/cover;
+  background: linear-gradient(to left, rgb(255, 255, 255), rgba(255, 255, 255, 0.4) 50%), linear-gradient(to top, rgb(255, 255, 255), rgba(255, 255, 255, 0.4) 80%), url("./../img/background/match-bg.jpg") no-repeat center -110px/cover; /* Фоновое изображение */
   border-top: 1px solid #000000;
 }
 
@@ -1730,13 +1743,13 @@ svg {
     font-size: 30px;
   }
 }
-@media (max-height: 800px) {
+@media (max-height: 1000px) {
   .header .header__title {
-    padding-top: 26vh;
+    padding-top: 36vh;
   }
 }
-@media (max-height: 610px) {
+@media (max-height: 810px) {
   .header .header__title {
-    padding-top: 19vh;
+    padding-top: 38vh;
   }
 }/*# sourceMappingURL=main.css.map */

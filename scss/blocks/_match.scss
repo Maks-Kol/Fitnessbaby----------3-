@@ -2,9 +2,14 @@
   padding-top: 120px;
   padding-bottom: 120px;
   background-color: var(--header-text-color);
-  background-image: linear-gradient(to left, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.6)), url('./../img/background/match-bg.jpg');
-  background-size: cover;
-  background-position: center;
+  // background-image: linear-gradient(to left, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.6)), url('./../img/background/match-bg.jpg');
+  // background-size: cover;
+  // background-position: center -93px;
+  // background-repeat: no-repeat;
+  background: 
+        linear-gradient(to left, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.4) 50%), /* Плавный переход справа */
+        linear-gradient(to top, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.4) 80%), /* Плавный переход снизу */
+        url('./../img/background/match-bg.jpg') no-repeat center -110px / cover; /* Фоновое изображение */
   border-top: 1px solid #000000;
 }
 
