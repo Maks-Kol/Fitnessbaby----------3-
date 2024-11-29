@@ -446,8 +446,8 @@ body.no-scroll {
 
 .header {
   background-color: var(--header-text-color);
-  background-image: -webkit-gradient(linear, left bottom, left top, from(white), color-stop(95%, rgba(80, 80, 80, 0.3))), url("./../img/header/header-bg.jpg");
-  background-image: linear-gradient(to top, white 0%, rgba(80, 80, 80, 0.3) 95%), url("./../img/header/header-bg.jpg");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(80, 80, 80, 0.3))), url("./../img/header/header-bg.jpg");
+  background-image: linear-gradient(rgba(80, 80, 80, 0.3)), url("./../img/header/header-bg.jpg");
   background-size: cover;
   height: 100vh;
   margin: 0 auto;
@@ -779,10 +779,10 @@ body.no-scroll {
 
 .exp {
   background-color: var(--header-text-color);
-  background-image: -webkit-gradient(linear, left top, right top, from(rgb(255, 255, 255)), to(rgba(255, 255, 255, 0.6))), url("./../img/background/exp-bg.jpg");
-  background-image: linear-gradient(to right, rgb(255, 255, 255), rgba(255, 255, 255, 0.6)), url("./../img/background/exp-bg.jpg");
-  background-size: cover;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(white), color-stop(95%, rgba(214, 214, 214, 0.8))), url("./../img/background/exp-bg.jpg");
+  background-image: linear-gradient(to top, white 0%, rgba(214, 214, 214, 0.8) 95%), url("./../img/background/exp-bg.jpg");
   background-repeat: no-repeat;
+  background-size: cover;
   background-position: 33% top;
   padding-bottom: 90px;
   padding-left: 120px;
@@ -1156,8 +1156,8 @@ body.no-scroll {
 
 .trainer__image-mobile {
   display: none;
-  background-image: -webkit-gradient(linear, left bottom, left top, from(white), color-stop(55%, rgba(80, 80, 80, 0.3))), url("./../img/background/trainer-bg.jpg");
-  background-image: linear-gradient(to top, white 0%, rgba(80, 80, 80, 0.3) 55%), url("./../img/background/trainer-bg.jpg");
+  background-image: -webkit-gradient(linear, left bottom, left top, from(white), color-stop(55%, rgba(80, 80, 80, 0.4))), url("./../img/background/trainer-bg.jpg");
+  background-image: linear-gradient(to top, white 0%, rgba(80, 80, 80, 0.4) 55%), url("./../img/background/trainer-bg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% top;
@@ -1509,9 +1509,6 @@ svg {
   .course-link {
     padding: 10px 20px;
   }
-  .exp {
-    background-position: 60% center;
-  }
   .faq {
     width: 90%;
   }
@@ -1597,9 +1594,6 @@ svg {
     font-size: 30px;
     padding-top: 80px;
     margin-bottom: 85px;
-  }
-  .exp {
-    background-position: 63% center;
   }
   .exp-item-wrapper div {
     font-size: 13px;
