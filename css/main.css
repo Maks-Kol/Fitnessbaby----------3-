@@ -868,7 +868,7 @@ body.no-scroll {
   background-image: linear-gradient(to bottom, rgba(80, 80, 80, 0.4)), url("./../img/background/test-bg.jpg");
   background-attachment: fixed; /* Работает на десктопах */
   background-size: cover;
-  background-position: center center;
+  background-position: 40% center;
   background-repeat: no-repeat;
   height: 330px;
   display: flex;
@@ -1171,8 +1171,8 @@ body.no-scroll {
 
 .trainer__image-mobile {
   display: none;
-  background-image: -webkit-gradient(linear, left bottom, left top, from(white), color-stop(55%, rgba(80, 80, 80, 0.4))), url("./../img/background/trainer-bg.jpg");
-  background-image: linear-gradient(to top, white 0%, rgba(80, 80, 80, 0.4) 55%), url("./../img/background/trainer-bg.jpg");
+  background-image: -webkit-gradient(linear, left bottom, left top, from(white), color-stop(80%, rgba(80, 80, 80, 0.4))), url("./../img/background/trainer-bg.jpg");
+  background-image: linear-gradient(to top, white 0%, rgba(80, 80, 80, 0.4) 80%), url("./../img/background/trainer-bg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% top;
@@ -1567,9 +1567,8 @@ svg {
   }
 }
 @media (max-width: 768px) {
-  .test {
-    background-attachment: scroll; /* Отключаем фиксированный фон на мобильных устройствах */
-    background-size: 120% auto; /* Увеличиваем фон для мобильных устройств */
+  .test::before {
+    background-size: 150%; /* Уменьшает приближение фона */
   }
 }
 @media (max-width: 690px) {
