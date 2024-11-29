@@ -237,6 +237,13 @@
   }
 }
 
+@media (max-width: 768px) {
+  .test {
+    background-attachment: scroll; /* Отключаем фиксированный фон на мобильных устройствах */
+    background-size: 120% auto; /* Увеличиваем фон для мобильных устройств */
+  }
+}
+
 @media (max-width: 690px) {
   .course-name {
     position: absolute;

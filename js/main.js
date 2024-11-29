@@ -73,3 +73,8 @@ if (/iPhone|iPad|iPod/i.test(navigator.userAgent)) {
     bg.style.backgroundPosition = "center " + scrollPosition * 0.5 + "px"; // Эффект параллакса
   });
 }
+
+if (/iPhone|iPad|iPod/i.test(navigator.userAgent)) {
+  var bg = document.querySelector(".test");
+  bg.style.backgroundSize = "120% auto"; // Увеличиваем изображение на iOS
+}
