@@ -270,6 +270,7 @@ body.no-scroll {
           justify-content: space-between;
   height: 60px;
   background-color: #ffffff;
+  opacity: 0.8;
   color: #141414;
   font-weight: 500;
   padding: 0 40px;
@@ -445,13 +446,14 @@ body.no-scroll {
 }
 
 .header {
-  background-color: var(--header-text-color);
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(80, 80, 80, 0.3))), url("./../img/header/header-bg.jpg");
-  background-image: linear-gradient(rgba(80, 80, 80, 0.3)), url("./../img/header/header-bg.jpg");
+  background-color: var(--accent-active);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(45, 47, 51)), color-stop(10%, rgba(80, 80, 80, 0.4))), url("./../img/header/header-bg.jpg");
+  background-image: linear-gradient(to bottom, rgb(45, 47, 51) 0%, rgba(80, 80, 80, 0.4) 10%), url("./../img/header/header-bg.jpg");
   background-size: cover;
+  background-repeat: no-repeat;
   height: 100vh;
   margin: 0 auto;
-  background-position: center;
+  background-position: center 60px;
   -o-border-image: fill 0 linear-gradient(rgba(0, 0, 0, 0.3333333333), rgba(0, 0, 0, 0.3333333333));
      border-image: fill 0 -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3333333333)), to(rgba(0, 0, 0, 0.3333333333)));
      border-image: fill 0 linear-gradient(rgba(0, 0, 0, 0.3333333333), rgba(0, 0, 0, 0.3333333333));
@@ -463,7 +465,7 @@ body.no-scroll {
 }
 
 .header__title {
-  padding-top: 25vh;
+  padding-top: 34vh;
   font-size: 90px;
   line-height: 1;
   text-transform: uppercase;

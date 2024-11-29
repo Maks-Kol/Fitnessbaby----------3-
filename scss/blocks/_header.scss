@@ -1,12 +1,13 @@
 
 
 .header {
-  background-color: var(--header-text-color);
-  background-image: linear-gradient(rgba(80, 80, 80, 0.3)),  url('./../img/header/header-bg.jpg');
+  background-color: var(--accent-active);
+  background-image: linear-gradient(to bottom, rgb(45, 47, 51) 0%, rgba(80, 80, 80, 0.4) 10%),  url('./../img/header/header-bg.jpg');
   background-size: cover;
+  background-repeat: no-repeat;
   height: 100vh;
   margin: 0 auto;
-  background-position: center;
+  background-position: center 60px;
 
   border-image: fill 0 linear-gradient(#0005, #0005);
 }
@@ -17,7 +18,7 @@
 }
 
 .header__title {
-  padding-top: 25vh;
+  padding-top: 34vh;
   font-size: 90px;
   line-height: 1;
   text-transform: uppercase;
