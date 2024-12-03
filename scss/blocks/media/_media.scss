@@ -236,8 +236,8 @@
 }
 
 @media (max-width: 768px) {
-  .test::before {
-    background-size: 150%; /* Уменьшает приближение фона */
+  .test {
+    background-attachment: scroll; /* Отключаем fixed */
   }
 }
 
