@@ -239,6 +239,9 @@
   .test {
     background-attachment: scroll; /* Отключаем fixed */
   }
+  .motivation__marquee {
+    animation: motivation__marquee 15s linear infinite;
+  }
 }
 
 @media (max-width: 690px) {
