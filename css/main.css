@@ -721,8 +721,8 @@ body.no-scroll {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-animation: motivation__marquee 45s linear infinite;
-          animation: motivation__marquee 45s linear infinite;
+  -webkit-animation: motivation__marquee 20s linear infinite;
+          animation: motivation__marquee 20s linear infinite;
   white-space: nowrap;
 }
 
