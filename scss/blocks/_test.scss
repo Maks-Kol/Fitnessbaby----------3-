@@ -13,6 +13,12 @@
   align-items: center;
 }
 
+@supports (-webkit-overflow-scrolling: touch) {
+  .test {
+    background-attachment: scroll; /* Альтернатива для Safari */
+  }
+}
+
 .test::before {
   content: '';
   position: absolute;
